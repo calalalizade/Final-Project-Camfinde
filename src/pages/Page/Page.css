@@ -1,0 +1,79 @@
+.new_page{
+    text-align: center;
+    background: white;
+    border-bottom: 1px solid black;
+}
+.new_page p{
+    padding: 15px 15px 0px 15px;
+    text-align: justify;
+    text-justify: center;
+}
+.new_page h2{
+    padding-top: 25px;
+    font-size: 36px;
+}
+.new_page img{
+    width: 400px;
+}
+
+.page_heading{
+    position: fixed;
+    backdrop-filter: blur(5px);
+
+    width: 100%;
+    height: 3vw;
+    background-color: #37a7ed7d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 10px 10px rgba(92, 92, 92, 0.75);
+}
+.page_heading h1{
+    color: white;
+    margin: auto 0;
+}
+
+#about-us ,
+#terms-and-conditions ,
+#privacy-statement ,
+#cookies-policies{
+    padding: 50px;
+    width: 100%;
+    height: auto;
+}
+
+/* #about-us{
+    padding-top: 100px;
+} */
+
+#about-us>div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#terms-and-conditions>div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+#privacy-statement>div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#cookies-policies>div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+
+.line_between{
+    margin: 0 auto;
+    width: 80%;
+    height:1px;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,0.6) 0%, rgba(13,13,13,1) 50%, rgba(255,255,255,0.6) 100%);
+}

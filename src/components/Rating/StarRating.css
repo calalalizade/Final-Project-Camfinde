@@ -1,0 +1,11 @@
+.star_container{
+    display:flex;
+    align-items:center;
+    margin-top: auto;   
+    margin-left: auto;
+}
+
+.star_value{
+    margin-left: 5px;
+    font-weight: bold;
+}

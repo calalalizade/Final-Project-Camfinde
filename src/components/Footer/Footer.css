@@ -1,0 +1,114 @@
+.footer_container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(246,246,246);
+
+    display: flex;
+    flex-direction: column;
+}
+
+/* FOOTER TOP */
+.footer_top{
+    width: 100%;
+    height: 500px;
+    flex: 1 1 auto;
+
+    display: flex;
+    align-items: center;
+}
+
+.footer_about{
+    padding: 50px;
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+.footer_about h2{
+    margin-right: 60px;
+    white-space: nowrap;
+}
+.footer_about p{
+    padding-left: 20px;
+    text-align: justify;
+    text-justify: center;
+}
+.line{
+    width: 30px;
+    height: 300px;
+    border-radius: 5px;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,0.8018557764902836) 0%, rgba(0,0,0,1) 50%, rgba(255,255,255,0.8) 100%);
+}
+.animate_about{
+    animation-duration: 1.5s;
+    animation-name: animate-about;
+}
+@keyframes animate-about{
+  0%{
+    transform: translateX(-90px) scale(0.9);
+    opacity: 0;
+  }
+  100%{
+    transform: translateX(0) scale(1);
+    opacity: 1;
+  }
+} 
+
+
+.contact_container{
+    margin-left: auto;
+    width: 40%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact_form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+/* FOOTER BOTTOM */
+.footer_bottom{
+    width: 100%;
+    background-color: #FFFFFF;
+    flex: 0 1 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_link{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: auto;
+}
+.footer_link a{
+    text-decoration: none;
+    color: black;
+}
+.footer_link a:hover{
+    text-decoration: overline;    
+    text-decoration-thickness: 0.05em;
+}
+.footer_link a:active{
+    transform: scale(0.9);
+}
+
+.footer_author{
+    color: gray;
+    font-style: italic;
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    padding: 5px;
+}
+.footer_author:hover{
+    cursor: default;
+}
